@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED195B81A06A61600363B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195B71A06A61600363B48 /* AppDelegate.swift */; };
+		BED195BA1A06A61600363B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195B91A06A61600363B48 /* ViewController.swift */; };
+		BED195BD1A06A61600363B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED195BB1A06A61600363B48 /* Main.storyboard */; };
+		BED195BF1A06A61600363B48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED195BE1A06A61600363B48 /* Images.xcassets */; };
+		BED195C21A06A61600363B48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED195C01A06A61600363B48 /* LaunchScreen.xib */; };
+		BED195CE1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195CD1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.swift */; };
+		BED195D81A06A68800363B48 /* JMBackgroundCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED195D71A06A68800363B48 /* JMBackgroundCameraView.swift */; };
+		BED195DA1A06AD2200363B48 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED195D91A06AD2200363B48 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED195C81A06A61600363B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED195AA1A06A61600363B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED195B11A06A61600363B48;
+			remoteInfo = JMSwiftBackgroundCameraView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED195B21A06A61600363B48 /* JMSwiftBackgroundCameraView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMSwiftBackgroundCameraView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED195B61A06A61600363B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED195B71A06A61600363B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BED195B91A06A61600363B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BED195BC1A06A61600363B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED195BE1A06A61600363B48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BED195C11A06A61600363B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BED195C71A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMSwiftBackgroundCameraViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED195CC1A06A61600363B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED195CD1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMSwiftBackgroundCameraViewTests.swift; sourceTree = "<group>"; };
+		BED195D71A06A68800363B48 /* JMBackgroundCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMBackgroundCameraView.swift; sourceTree = "<group>"; };
+		BED195D91A06AD2200363B48 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED195AF1A06A61600363B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED195DA1A06AD2200363B48 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED195C41A06A61600363B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED195A91A06A61600363B48 = {
+			isa = PBXGroup;
+			children = (
+				BED195D91A06AD2200363B48 /* AVFoundation.framework */,
+				BED195B41A06A61600363B48 /* JMSwiftBackgroundCameraView */,
+				BED195CA1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests */,
+				BED195B31A06A61600363B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED195B31A06A61600363B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED195B21A06A61600363B48 /* JMSwiftBackgroundCameraView.app */,
+				BED195C71A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED195B41A06A61600363B48 /* JMSwiftBackgroundCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				BED195B71A06A61600363B48 /* AppDelegate.swift */,
+				BED195B91A06A61600363B48 /* ViewController.swift */,
+				BED195D71A06A68800363B48 /* JMBackgroundCameraView.swift */,
+				BED195BB1A06A61600363B48 /* Main.storyboard */,
+				BED195BE1A06A61600363B48 /* Images.xcassets */,
+				BED195C01A06A61600363B48 /* LaunchScreen.xib */,
+				BED195B51A06A61600363B48 /* Supporting Files */,
+			);
+			path = JMSwiftBackgroundCameraView;
+			sourceTree = "<group>";
+		};
+		BED195B51A06A61600363B48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED195B61A06A61600363B48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BED195CA1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED195CD1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.swift */,
+				BED195CB1A06A61600363B48 /* Supporting Files */,
+			);
+			path = JMSwiftBackgroundCameraViewTests;
+			sourceTree = "<group>";
+		};
+		BED195CB1A06A61600363B48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BED195CC1A06A61600363B48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED195B11A06A61600363B48 /* JMSwiftBackgroundCameraView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED195D11A06A61600363B48 /* Build configuration list for PBXNativeTarget "JMSwiftBackgroundCameraView" */;
+			buildPhases = (
+				BED195AE1A06A61600363B48 /* Sources */,
+				BED195AF1A06A61600363B48 /* Frameworks */,
+				BED195B01A06A61600363B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMSwiftBackgroundCameraView;
+			productName = JMSwiftBackgroundCameraView;
+			productReference = BED195B21A06A61600363B48 /* JMSwiftBackgroundCameraView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED195C61A06A61600363B48 /* JMSwiftBackgroundCameraViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED195D41A06A61600363B48 /* Build configuration list for PBXNativeTarget "JMSwiftBackgroundCameraViewTests" */;
+			buildPhases = (
+				BED195C31A06A61600363B48 /* Sources */,
+				BED195C41A06A61600363B48 /* Frameworks */,
+				BED195C51A06A61600363B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED195C91A06A61600363B48 /* PBXTargetDependency */,
+			);
+			name = JMSwiftBackgroundCameraViewTests;
+			productName = JMSwiftBackgroundCameraViewTests;
+			productReference = BED195C71A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED195AA1A06A61600363B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "joan molinas ramon";
+				TargetAttributes = {
+					BED195B11A06A61600363B48 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BED195C61A06A61600363B48 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BED195B11A06A61600363B48;
+					};
+				};
+			};
+			buildConfigurationList = BED195AD1A06A61600363B48 /* Build configuration list for PBXProject "JMSwiftBackgroundCameraView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED195A91A06A61600363B48;
+			productRefGroup = BED195B31A06A61600363B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED195B11A06A61600363B48 /* JMSwiftBackgroundCameraView */,
+				BED195C61A06A61600363B48 /* JMSwiftBackgroundCameraViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED195B01A06A61600363B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED195BD1A06A61600363B48 /* Main.storyboard in Resources */,
+				BED195C21A06A61600363B48 /* LaunchScreen.xib in Resources */,
+				BED195BF1A06A61600363B48 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED195C51A06A61600363B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED195AE1A06A61600363B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED195BA1A06A61600363B48 /* ViewController.swift in Sources */,
+				BED195B81A06A61600363B48 /* AppDelegate.swift in Sources */,
+				BED195D81A06A68800363B48 /* JMBackgroundCameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED195C31A06A61600363B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED195CE1A06A61600363B48 /* JMSwiftBackgroundCameraViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED195C91A06A61600363B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED195B11A06A61600363B48 /* JMSwiftBackgroundCameraView */;
+			targetProxy = BED195C81A06A61600363B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED195BB1A06A61600363B48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED195BC1A06A61600363B48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED195C01A06A61600363B48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED195C11A06A61600363B48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED195CF1A06A61600363B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BED195D01A06A61600363B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED195D21A06A61600363B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMSwiftBackgroundCameraView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BED195D31A06A61600363B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMSwiftBackgroundCameraView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BED195D51A06A61600363B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JMSwiftBackgroundCameraViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSwiftBackgroundCameraView.app/JMSwiftBackgroundCameraView";
+			};
+			name = Debug;
+		};
+		BED195D61A06A61600363B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JMSwiftBackgroundCameraViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMSwiftBackgroundCameraView.app/JMSwiftBackgroundCameraView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED195AD1A06A61600363B48 /* Build configuration list for PBXProject "JMSwiftBackgroundCameraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED195CF1A06A61600363B48 /* Debug */,
+				BED195D01A06A61600363B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED195D11A06A61600363B48 /* Build configuration list for PBXNativeTarget "JMSwiftBackgroundCameraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED195D21A06A61600363B48 /* Debug */,
+				BED195D31A06A61600363B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED195D41A06A61600363B48 /* Build configuration list for PBXNativeTarget "JMSwiftBackgroundCameraViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED195D51A06A61600363B48 /* Debug */,
+				BED195D61A06A61600363B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED195AA1A06A61600363B48 /* Project object */;
+}
